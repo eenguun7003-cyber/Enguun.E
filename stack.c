@@ -12,7 +12,7 @@ void s_push(Stack *p, int x)
  */
 void s_pop(Stack *p)
 {
-        if (p->len > 0){
+        if (p->s_len >= 0){
           return -1;
         }
         p->s_len --;
