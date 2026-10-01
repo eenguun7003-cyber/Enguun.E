@@ -12,9 +12,9 @@ void s_push(Stack *p, int x)
  */
 void s_pop(Stack *p)
 {
-        if (p->s_len >= 0){
+        if (p->s_len <= 0){
           printf("Stack hooson.");
-          return 
+          return;
         }
         p->s_len --;
 }
